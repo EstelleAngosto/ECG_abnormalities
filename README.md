@@ -18,3 +18,12 @@ https://towardsdatascience.com/detecting-heart-arrhythmias-with-deep-learning-in
 We also used the documentation of the different library : 
 sklearn_som : https://sklearn-som.readthedocs.io/en/latest/
 hmm_learn : https://hmmlearn.readthedocs.io/en/latest/
+
+# Analysis and preparation of the dataset
+
+Our data source is composed of groups of files that correspond to a patient. These files represent the ECG signal and the annotations for each heartbeat.
+You can find the list of the annotations and their explanations there : https://archive.physionet.org/physiobank/annotations.shtml
+
+The analysis of the annotations of all the recordings presents that 30% of them coresponds to an abnormal heatbeat.
+
+![newplot](https://user-images.githubusercontent.com/82390655/220096063-83a3a71b-a551-4481-95cf-665d33529b3a.png)
