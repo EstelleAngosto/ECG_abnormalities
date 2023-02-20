@@ -22,8 +22,16 @@ hmm_learn : https://hmmlearn.readthedocs.io/en/latest/
 # Analysis and preparation of the dataset
 
 Our data source is composed of groups of files that correspond to a patient. These files represent the ECG signal and the annotations for each heartbeat.
+Each annotations are used to show the heartbeat type. We can classify these annotations in three categories : Normal, abnormal and non-beat. 
 You can find the list of the annotations and their explanations there : https://archive.physionet.org/physiobank/annotations.shtml
 
 The analysis of the annotations of all the recordings presents that 30% of them coresponds to an abnormal heatbeat.
+(In this plot, -1 = non-beat, 0 = normal, 1 = abnormal
 
 ![newplot](https://user-images.githubusercontent.com/82390655/220096063-83a3a71b-a551-4481-95cf-665d33529b3a.png)
+
+We studied the profile of each patient to see if they all showed an anomaly in their recording.
+The result presents that there are 2 of 48 who had a normal ECG.
+
+![repartition](https://user-images.githubusercontent.com/82390655/220097892-c4af5657-6023-440e-aaa2-cce5e1b33f4f.png)
+
