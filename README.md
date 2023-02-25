@@ -1,4 +1,4 @@
-# ECG_anomalities
+# ECG_abnormalities
 
 In this project, we tried to study ECG excerpts to classify different types of heartbeat.
 We classify it in two categories : abnormal and normal heartbeat.
