@@ -60,9 +60,9 @@ We created also an HMM model with two states and we did a training with the tans
 
 |                 | LSTM Tutorial   | LSTM from the project | SOM + HMM       |
 |:---------------:|:---------------:| :--------------------:|:---------------:|
-| Prediction time |   ce texte      |  Aligné à droite      |                 |
-| AUC             | est             |   Aligné à droite     |                 |
-| Accuracy        | centré          |    Aligné à droite    |                 |
+| Prediction time |                 |                       |                 |
+| AUC             |                 |                       |                 |
+| Accuracy        |                 |                       |                 |
 
 
 
