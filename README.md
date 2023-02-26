@@ -35,7 +35,7 @@ The result presents that there are 2 of 48 who had a normal ECG.
 
 ![repartition](https://user-images.githubusercontent.com/82390655/220097892-c4af5657-6023-440e-aaa2-cce5e1b33f4f.png)
 
-To prepare our training and validation data, we decided to split the patient group in two. 75% of them are in the training data (36 patients) and 25% in the validation data (12 patients). It seems to be the better way to work because it avoids that the annotations of a patient are in the validation and the trainig data. If it was the case, the AUC would show a data leakage. We also couldn't be sure that our models would work with a new patient.
+To prepare our training and validation data, we decided to split the patient group in two. 75% of them are in the training data (36 patients) and 25% in the validation data (12 patients). It seems to be the better way to work because it avoids that the annotations of a patient are in the validation and the training data. If it was the case, the AUC would show a data leakage. We also couldn't be sure that our models would work with a new patient.
 
 We will use a window of 6 seconds around each heartbeat to be able to compare the beat before and after the current heartbeat. We will ignore the non-beat anotations.
 
